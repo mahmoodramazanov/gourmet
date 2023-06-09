@@ -1,0 +1,171 @@
+:root {
+  
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header-bg-img {
+  background-image: url(./assests/images/hp-bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* HEADER styling START */
+
+header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+header .header-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.header-left {
+  position: relative;
+  gap: 100px;
+}
+.header-left img {
+  color: black;
+}
+.header-left div:last-child {
+  display: flex;
+  gap: 20px;
+}
+.header-left div:last-child a {
+  color: white;
+  text-decoration: none;
+}
+header .header-right {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header-right i {
+  color: white;
+}
+header .header-right div {
+  display: flex;
+  align-items: center;
+}
+/* HEADER styling END */
+
+/* sctn SECTION1 styling START */
+#section1 {
+  padding: 200px 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+#section1 h2 {
+  font-size: ;
+}
+#section1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section1 button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+}
+#section1 button:hover{
+  background-color: white;
+  color: black;
+}
+#section1 button::after{
+
+}
+/* sctn SECTION2 styling START */
+/* YUXARI-DIV START */
+#section2 .yukhari-div{
+  display: flex;
+  padding: 46px;
+  border-bottom: 1p solid black;
+  gap: 40px;
+}
+#section2 .sol {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  color: rgb(120, 120, 120);
+  justify-content: space-between;}
+#section2 .sol h3 {
+  font-size: 34px;
+  color: rgb(75, 75, 75);
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+#section2 .sol img {
+  width: 200px;
+}
+#section2 .sag {
+  flex-basis: 50%;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  object-fit: cover;
+}
+#section2 .sag img {
+  width: 100%;
+  position: absolute;
+}
+/* YUXARI-DIV END */
+/* ORTA-DIV START */
+#section2 .orta-div {
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#section2 .orta-div .img-div {
+  position: relative;
+  transition: 0.8s;
+}
+#section2 .orta-div .img-div:hover{
+filter: brightness(75%);
+transform: scale(1.1);
+}
+#section2 .orta-div img {
+  width: 265px;
+  height: 360px;
+}
+
+#section2 .orta-div .img-div div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#section2 .orta-div .img-div div h3{
+  font-size: 30px;
+}
+#section2 .orta-div .img-div div p{
+  margin-top: 16px;
+  display: none;
+}
+#section2 .orta-div .img-div:hover #section2 .orta-div .img-div div p{
+  display: contents;
+}
+/* ORTA-DIV END */
+/* sctn SECTION2 styling END */
